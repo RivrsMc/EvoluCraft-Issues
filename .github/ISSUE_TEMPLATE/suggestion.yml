@@ -2,7 +2,7 @@ name: Suggestion
 description: Proposer une amélioration au serveur
 title: "[SUGGESTION]"
 labels: 
-  - Bug, 
+  - Suggestion, 
   - New
 assignees: []
 body:
