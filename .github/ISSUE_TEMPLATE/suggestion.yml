@@ -1,0 +1,36 @@
+name: Suggestion
+description: Proposer une amélioration au serveur
+title: "[SUGGESTION]"
+labels: 
+  - Bug, 
+  - New
+assignees: []
+body:
+  - type: input
+    id: pseudo
+    attributes:
+      label: Pseudo en jeu
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion
+      description: Une description claire et concise de la suggestion. Ex. Je suis toujours frustré lorsque [...]
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion-solution
+    attributes:
+      label: Décrivez la solution que vous souhaitez
+      description: Une description claire et concise de ce que vous souhaitez voir se produire.
+    validations:
+      required: true
+   
+  - type: textarea
+    id: more-info
+    attributes:
+      label: 'Information supplémentaire'
+      description: 'Ajoutez ici tout autre contexte relatif au problème.'
