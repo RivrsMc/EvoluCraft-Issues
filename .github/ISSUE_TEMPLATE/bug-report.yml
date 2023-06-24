@@ -16,7 +16,6 @@ body:
           required: true
         - label: "Le bug que je report n'est pas un bug de duplication"
           required: true
-        - label: "J'ai coché cette case sans lire les cases du haut"
   - type: input
     id: pseudo
     attributes:
